@@ -4,8 +4,7 @@ import Home from '../paginas/Home'
 import Sabores from '../paginas/Sabores'
 import Sobre from '../paginas/Sobre'
 
-export default function Rotas() {
-    return(
+const Rotas = () => (
         <BrowserRouter>
             <Routes>
                 <Route exact path="/" element={ <Home/> }/>
@@ -14,4 +13,5 @@ export default function Rotas() {
             </Routes>
         </BrowserRouter>
     )
-}
+
+export default Rotas
