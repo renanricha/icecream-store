@@ -1,9 +1,10 @@
 import React from "react"
+import Topo from '../../componentes/Topo'
 
 export default function HomePage() {
     return (
         <div>
-            <p>HomePage</p>
+            <Topo />
         </div>
     )
 }
