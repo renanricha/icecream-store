@@ -2,3 +2,26 @@
     margin: 80px auto;
     background-color: white;
 }
+
+.banner-sobre {
+    height: 90vh;
+    background-image: url('/public/assets/banner-sobre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #f9db79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-sobre {
+    text-align: center;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.texto-sobre p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

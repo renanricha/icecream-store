@@ -8,7 +8,7 @@ export default function Sabores() {
         <div>
             <Topo />
             <main className="limitar-secao">
-                <section className="banner">
+                <section className="banner-sabores">
                     <div className="cont-banner">
                         <h1>NOSSOS SABORES</h1>
                     </div>
