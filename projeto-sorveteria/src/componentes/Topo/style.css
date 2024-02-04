@@ -2,10 +2,38 @@ header {
     background-color: #eab676;
     position: fixed;
     width: 100%;
+    margin-top: -80px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
     height: 80px;
 
 }
-.container {
-    margin: 0 auto;
 
+.topo-links a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+    .topo-links {
+        width: 80%;
+        border-top: black 1px solid;
+        display: flex;
+        justify-content: space-around;
+    }
 }
