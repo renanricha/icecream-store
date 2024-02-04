@@ -25,3 +25,23 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.imagens-sobre {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -80px;
+}
+
+.imagens-sobre img {
+    width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .imagens-sobre {
+        flex-direction: column;
+    }
+    
+    .imagens-sobre img {
+        width: 100%;
+    }
+}
