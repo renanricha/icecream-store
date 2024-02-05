@@ -18,7 +18,7 @@ export default function Sabores() {
 
                 <section className="cards">
                     <div className="card">
-                        <img src="/assets/sabor-oreo.jpg" alt="sabor: oreo" />
+                        <img src="/assets/sabor-oreo.png" alt="sabor: oreo" />
                         <div className="textos-cards-sabores">
                             <h2>Sorvete de Oreo</h2>
                             <p></p>
